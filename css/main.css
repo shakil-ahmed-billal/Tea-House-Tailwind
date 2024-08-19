@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-2xl font-serif
+    }
+    p {
+        @apply text-sm text-slate-500
+    }
+}
+
+.btn{
+    @apply px-5 py-3 rounded-xl text-white font-bold bg-gradient-to-r from-orange-400 via-orange-600 to-red-600
+}
